@@ -1,4 +1,5 @@
 /*  ============= WEB BROWSER RESETS ============ */
+body { background-color: lightblue; }
 * { margin: 0; padding: 0; border: none }
 *, *::before, *::after { box-sizing: border-box }
 html { height: 100%; font-size: 100%; font: inherit; vertical-align: baseline;
@@ -32,6 +33,7 @@ h1 {
 }
 
 h2 {
+    color: blue;
     font-size: 36px;
     margin-bottom: 4px;
 }
@@ -47,3 +49,5 @@ p {
     line-height: 1.6;
     margin-bottom: 20px;
 }
+
+a { color: blue; }
