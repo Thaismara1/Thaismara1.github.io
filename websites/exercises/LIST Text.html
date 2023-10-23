@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Lesson 2 in Javascript</title>
+        <script>
+            
+            //USING SINGLE VARIBLE, NOT EFFICIENT FOR LISTS OF ITEMS
+            let dwarf1 = 'Dopey';
+            let dwarf2 = 'Doc';
+            let dwarf3 = 'Bashful';
+
+            let dwarves = ['Dopey', 'Doc', 'Bashful'];
+
+            //push or add items to the array
+
+            dwarves[3] = 'Sleepy';
+            dwarves.push('Happy');
+            dwarves.push('Sneezy');
+            dwarves.push('Grumpy');
+
+
+            console.log(dwarves[0]);
+            console.log(dwarves[1]);
+            console.log(dwarves[2]);
+            console.log(dwarves[3]);
+            console.log(dwarves[4]);
+            console.log(dwarves[5]);
+            console.log(dwarves[6]);
+
+            let countDwarves = dwarves.length;
+            console.log('There are ${countDwarves} dwarves');
+            for(let i = 0; i < countDwarves; i++){
+
+                console.log('Dwarf at position ${i} id ${dwarves[i]}');
+
+
+            }
+
+            dwarves.pop();
+            countDwarves = dwarves.length;
+
+            console.log('There are ${countDwarves} dwarves');
+            for(let i = 0; i < countDwarves; i++){
+
+                console.log('Dwarf at position ${i} id ${dwarves[i]}');
+            }
+
+
+            while (countDwarves > 0){
+
+                let. poppedDwarf = dwarves.pop();
+                console.log('There are ${countDawarves} dwarves');
+
+            }
+
+            console.log('After while loop there are ${dwarves.length} dwarves');
+
+            
+
+
+        </script>
+
+    </head>
+<body>
+    <h1>Lesson 2 in Javascript</h1>
+</body>
+</html>
